@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding-top: 100px;
+}
+
+#cab{
+    display: inline-flex;
+    width: 100%;
+    height: 120px;
+    margin-top: -100px;
+    padding: 5px;
+    background-color: #ffb429;
+    box-shadow: -5px -25px 50px 10px #000;
+    color: #fff;
+}
+
+#log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#log img{
+    width: 180px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+
+#navegation{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+#navegation ul{
+    list-style: none;
+    display: flex;
+}
+
+#navegation a{
+    font-size: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+#navegation a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s ease;
+}
+
+#pes{
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+#atg{
+    margin-top: 16px;
+}
+
+#atg02{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+#legnd{
+    background-color: #ffb429;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}
+
+#pict{
+    display: flex;
+    align-items: center;
+}
+
+#pict img{
+    width: 175px;
+}
+
+#pict figcaption{
+    color: #000;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+#pict a{
+    text-decoration: none;
+}
+
+#road{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #000;
+    background-color: #ffb429;
+    margin-top: 20px;
+}
+
+#centr{
+    display: flex;
+    justify-content: center;
+}
+
+#orcam{
+    width: 1000px;
+}
+
+#ass{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#ass p{
+    text-align: center;
+    font-size: 15px;
+}

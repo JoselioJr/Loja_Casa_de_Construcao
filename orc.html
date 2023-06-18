@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Construção - Orçamento</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+    <header id="cab">
+        <div id="log">
+            <figure>
+                <img src="IMAGENS/LOGO/construct.png" alt="Logo Casa de contrução">
+            </figure>
+        </div>
+        <div id="navegation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cont.html">Contato</a></li>
+                    <li><a href="orc.html">Orçamento</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="pes">
+            <form id="pesquisa" method="get">
+                <p>
+                    <label>Pesquisa:</label>
+                    <input type="text" name="tPesquisa" id="cPesquisa">
+                    <input type="submit" name="bSub" id="cSub" value="Enviar">
+                </p>
+            </form>
+        </div>
+    </header>
+
+    <article>
+        <section id="atg02">
+            <div id="centr">
+                <div id="orcam">
+                    <h3>Orçamento</h3>
+
+                    <form id="f_orcamento" method="post" action="mailto:joselio.junior@estudante.ifgoiano.edu.br">
+                        <fieldset id="id_usuario">
+                            <legend>Identificacão do Usuário</legend>
+                            <p>
+                                <label for="cNome">Nome</label>
+                                <input type="text" name="tNome" id="cNome" size="40" maxlength="50" placeholder="Nome Completo">
+                            </p>
+                            <p>
+                                <label for="cEmail">E-mail</label>
+                                <input type="email" name="tEmail" id="cEmail" size="40" maxlength="40" min="5" placeholder="E-mail Válido">
+                            </p>
+                        </fieldset>
+                        <fieldset id="f_produto" method="post" action="mailto:joselio.junior@estudante.ifgoiano.edu.br">
+                            <legend>Orçamento</legend>
+                            <p>
+                                <label for="cProduto">Produto</label>
+                                <input type="text" name="tProduto" id="cProduto" size="40" maxlength="50" placeholder="Produto">
+                            </p>
+                            <p>
+                                <label for="cQuant">Quantidade</label>
+                                <input type="number" name="nQuant" id="cQuant" min="0" max="3000">
+                            </p>
+                            <p>
+                                Obs.: O orçamento será enviado por E-mail.
+                            </p>
+                        </fieldset>
+                        <p>
+                            <input type="submit" name="btnEnviar" id="btnEnviar">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <footer>
+        <section id="road">
+            <address id="ass">
+                <p>
+                    &copy; Joselio Jr. - Todo o conteúdo deste site está protegido por direitos autorais e é propriedade
+                    exclusiva de seus respectivos autores.
+                    Qualquer uso não autorizado ou reprodução sem consentimento expresso é estritamente proibido. Respeite
+                    os direitos autorais e valorize o trabalho
+                    criativo dos artistas e produtores. Agradecemos sua cooperação e compreensão.
+                </p>
+            </address>
+        </section>
+    </footer>
+</body>
+</html>
